@@ -1,0 +1,187 @@
+:root{
+    --danger: #EE4D47;
+}
+
+*{
+    font-family: DM Serif Display;
+}
+
+body{
+    background-image:url(../Images/Scene.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    background-color: #FEF8F5;
+    overflow-x: hidden;
+}
+
+@media only screen and (min-width:1200px) {
+    #header{
+    background-size: 100%;
+}
+}
+
+h1{
+    color: #EE4D47;
+    font-family: Rubik;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.1em;
+}
+footer{
+    background-image: url(/Images/footer\ background.jpeg);
+    background-size: cover;
+    background-position-x: 150%;
+    background-repeat: no-repeat;
+}
+#navBrand{
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+}
+#navlinks{
+    font-family: Rubik;
+    font-weight: 700;
+}
+
+.btn{
+    background-color:  #EE4D47;
+}
+.btn-danger{
+    position: relative;
+}
+
+.fa{
+    padding-left: 10px;
+}
+.paragraph{
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.paragraph2{
+    color: #402B2B;
+    font-family: Rubik;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    border-left: #EE4D47 10px solid;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 20px;
+}
+
+#secondDiv{
+    padding-top: 200px;
+}
+#aboutDiv{
+    padding-top: 150px;
+}
+
+#thirdDiv{
+    padding-top: 120px;
+    background-image: url(Images/Rectangle\ 9\ \(2\).png);
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+}
+.faqQuestion{
+    font-family: DM Serif Display;
+    font-size: 48px;
+    line-height: 140%;
+    color: #402B2B;
+}
+#hOnes{
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    padding-top: 50px;
+    padding-left: 92px;
+}
+#btnsFAQ{
+    color: #402B2B;
+    border: none;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.1);
+    border-radius: 10px;
+    height: 70px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    width: 500px;
+}   
+.fa-plus{
+    color: #EE4D47;
+}
+.card-body{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+    display: flex;
+    align-items: center;
+    /* text */
+    color: #402B2B;
+}
+.CardsP{
+    width: 550px;
+    height: 200px;
+    left: 240px;
+    top: 4570px;
+    font-family: DM Serif Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 140%;
+    /* or 67px */
+    color: #402B2B;
+}
+#background{
+    background-image: url(/Images/footer\ background2.jpeg);
+    background-position-x: left;
+}
+#footerP{
+    border-left: #EE4D47 10px solid;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: #FEF8F5;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 40px;
+}
+.form-control:focus {
+    border-color: #EE4D47;
+    box-shadow: inset 0 1px 1px #EE4D47, 0 0 8px #EE4D47;
+  }
+  .form-control::-webkit-input-placeholder {
+    color: #402B2B !important; 
+    font-family: Rubik !important;
+    font-style: normal !important;
+    font-weight: 300 !important;
+    font-size: 18px !important;
+    line-height: 40px !important;
+  }
+  #footerText{
+      background-image: url(/Images/Vector\ 13.png);
+  }
+
+
+
+  
+
